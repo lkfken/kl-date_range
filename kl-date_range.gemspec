@@ -13,8 +13,6 @@ Gem::Specification.new do |spec|
   spec.summary       = %q{To generate an array of dates when given the range of dates and step.}
   spec.description   = %q{To generate an array of dates when given the range of dates and step.}
 
-  # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
-  # delete this section to allow pushing this gem to any host.
   if spec.respond_to?(:metadata)
     spec.metadata['allowed_push_host'] = 'http://leungs.us'
   else
