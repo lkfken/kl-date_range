@@ -21,8 +21,10 @@ Or install it yourself as:
     $ gem install kl-date_range
 
 ## Usage
-
-TODO: Write usage instructions here
+```ruby
+require 'kl/date_range'
+```
+Refer to kl-date_range_spec.rb for usage.
 
 ## Development
 
