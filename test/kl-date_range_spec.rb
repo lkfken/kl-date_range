@@ -1,6 +1,6 @@
 require 'rspec'
 require_relative '../lib/kl/date_range'
-require 'pp'
+require 'date'
 
 describe KL::DateRange do
   let(:ending_date) { Date.civil(2016,12,31) }
@@ -14,7 +14,6 @@ describe KL::DateRange do
       expect(date_range.last).to eq(beginning_date.next_month(11))
     end
     it 'should have number of months between the given two dates' do
-      pp date_range
       expect(date_range.size).to eq 12
     end
   end
