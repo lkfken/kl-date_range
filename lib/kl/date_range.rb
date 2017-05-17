@@ -1,6 +1,6 @@
-require 'active_support/core_ext/date/calculations'
-require 'active_support/core_ext/date_time/calculations'
-require 'active_support/core_ext/time/calculations'
+require 'active_support/core_ext/date'
+require 'active_support/core_ext/date_time'
+require 'active_support/core_ext/time'
 
 module KL
   class DateRange < Range
